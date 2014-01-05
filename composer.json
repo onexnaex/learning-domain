@@ -1,0 +1,34 @@
+{
+    "name": "ageng/learning-domain",
+    "description": "Domain model library of a learning",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "http://www.krucil.net",
+    "minimum-stability": "dev",
+    "keywords": [
+        "ageng ganteng",
+        "domain model",
+        "admin of krucil.net"
+    ],
+    "authors": [
+        {
+            "name": "Ageng Nugrphp",
+            "email": "agengpdc@gmail.com",
+            "homepage": "http://krucil.net/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3",
+        "doctrine/orm": "2.3.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=3.7"
+    },
+    "suggest": {
+    },
+    "autoload": {
+        "psr-0": {
+            "Ageng\\Learning\\Domain\\": "src"
+        }
+    }
+}
